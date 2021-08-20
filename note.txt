@@ -1,0 +1,23 @@
+
+tinyArray Array: 
+    insert: 54.67 μs
+    append: 00.448 μs
+
+smallArray: 
+    insert: 50.516 μs
+    append: 112.051 μs
+
+middleArray: 
+    insert: 40.477 μs
+    append: 181.873 μs
+
+largeArray: 
+    insert: 7.144144 ms
+    append: 680.403 μs
+
+
+Extralarge Array: 
+    insert 1.012512143 s
+    append 4.340312 ms
+
+The the larger the array, the insert value decrease. The smaller the array the insert value increases.  The smallArray & middleArray share a closer append value. The doublerInsert function scales better due to the time of the insert time value. It's the fastest. 
